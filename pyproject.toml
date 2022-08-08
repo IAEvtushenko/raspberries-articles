@@ -14,8 +14,14 @@ python-environ = "^0.4.54"
 bcrypt = "^3.2.2"
 passlib = "^1.7.4"
 python-jose = "^3.3.0"
+uvicorn = "^0.18.2"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+mypy = "^0.971"
+pytest = "^7.1.2"
+black = "^22.6.0"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

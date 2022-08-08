@@ -2,7 +2,7 @@ from typing import List
 
 from sqlalchemy.future import select
 
-from raspberries.adapters.main import async_session
+from raspberries.adapters.db import async_session
 from raspberries.entities.models import User
 from raspberries.repositories.base import AbstractRepository
 
